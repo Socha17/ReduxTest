@@ -16,8 +16,6 @@ const initialState = [
 ]
 
 
-
-
 export default function PLayer(state=initialState, action) {
   switch (action.type) {
     case PlayerActionTypes.ADD_PLAYER:
