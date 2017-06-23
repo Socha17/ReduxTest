@@ -15,7 +15,6 @@ export default class Stopwatch extends Component {
     clearInterval(this.interval);
   }
 
-
   onStart = () => {
     this.setState({
       running: true,

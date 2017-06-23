@@ -15,7 +15,7 @@ const Player = props => {
   );
 }
 
-Player.propTypes = {
+Player.PropTypes = {
   name: PropTypes.string.isRequired,
   score: PropTypes.number.isRequired,
   onRemove: PropTypes.func.isRequired,
