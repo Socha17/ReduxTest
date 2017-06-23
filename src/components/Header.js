@@ -1,4 +1,4 @@
-import React, { propTypes } from 'react';
+import React, { PropTypes } from 'react';
 import Stats from './Stats';
 import Stopwatch from './Stopwatch';
 
@@ -12,7 +12,7 @@ const Header = props => {
   );
 }
 
-Header.propTypes = {
+Header.PropTypes = {
   players: PropTypes.array.isRequired,
 };
 
