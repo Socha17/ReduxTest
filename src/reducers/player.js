@@ -29,7 +29,7 @@ export default function PLayer(state=initialState, action) {
 
       case PlayerActionTypes.REMOVE_PLAYER:
         return [
-          ...state.slice(0, action.index).
+          ...state.slice(0, action.index),
           ...state.slice(action.index + 1)
         ]
 
@@ -46,7 +46,7 @@ export default function PLayer(state=initialState, action) {
 
 
     default:
-      return state:
+      return state;
 
   }
 }
