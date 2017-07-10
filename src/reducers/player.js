@@ -16,7 +16,8 @@ const initialState = [
 ]
 
 
-export default function PLayer(state=initialState, action) {
+export default function Player(state=initialState, action) {
+
   switch (action.type) {
     case PlayerActionTypes.ADD_PLAYER:
         return [
@@ -39,7 +40,7 @@ export default function PLayer(state=initialState, action) {
             return {
               ...player,
               score: player.score + action.score
-            }
+            };
           }
           return player;
         });

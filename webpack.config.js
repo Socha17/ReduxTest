@@ -1,5 +1,5 @@
 module.exports = {
-  devtool: 'inline-sourcemap',
+  devtool: 'source-map',
   entry: './index.js',
   output: {
     filename: 'bundle.js'
